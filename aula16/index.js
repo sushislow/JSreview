@@ -3,13 +3,24 @@ const nome = 'Eduardo'
 console.log(nome[0]);
 */
 //               0      1       2
-const alunos = ['Luiz','Maria','João'];
+const alunos = ['Luiz', 'Maria', 'João'];
 
-const remov = alunos.shift();
-
-console.log(alunos);
+console.log(typeof alunos);
+console.log(alunos instanceof Array);
 
 /*
+alunos.push('Luiza'); 
+alunos.push('Eduardo'); 
+console.log(alunos.slice(0,-4));
+
+alunos.push('Luiza'); *
+alunos.push('Eduardo'); *
+console.log(alunos[4]); *posso acessar 
+
+console.log(alunos[50]);
+
+delete alunos[1]; *remove um elemento da array
+
 const remov = alunos.shift(); *
 console.log(remov); *o shift tira o primeiro dado da array e pode ser armazenada em uma variável
 
